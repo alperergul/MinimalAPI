@@ -3,13 +3,9 @@ using FluentValidation;
 using MagicVilla_CouponAPI;
 using MagicVilla_CouponAPI.Data;
 using MagicVilla_CouponAPI.Endpoints;
-using MagicVilla_CouponAPI.Models;
-using MagicVilla_CouponAPI.Models.DTO;
 using MagicVilla_CouponAPI.Repository;
 using MagicVilla_CouponAPI.Repository.IRepository;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Net;
 
 var builder = WebApplication.CreateBuilder(args);
 
